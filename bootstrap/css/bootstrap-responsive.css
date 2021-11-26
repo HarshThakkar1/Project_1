@@ -66,10 +66,12 @@
   display: inherit !important;
 }
 
-@media (min-width: 500px) and (max-width: 600px) {
-  .hidden-desktop {
-    display: inherit !important;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: orange;
   }
+}
+
   .visible-desktop {
     display: none !important ;
   }
